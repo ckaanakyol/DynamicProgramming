@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class MaximumProductIncreasingSubsequence {
 
-    static int lis(int arr[], int n){
-        int dp[] = new int[n];
+    private static int lis(int []arr, int n){
+        int []dp = new int[n];
 
         for (int i = 0; i < n; i++)
             dp[i] = arr[i];
